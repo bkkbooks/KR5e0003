@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5e0003/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5e0003/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太平經復文序#
+  date: '2015-08-29 02:06:40.951774'
+  source:
+    repository: kanripo
+    path: KR5e0003
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5e0003_000-ZTDZ.yaml, hash: 'sha256:1620ac43a700c4bead7a32d8c1f040fd6710038f404f04dfc46e73f71ebccfbe'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5e0003_000-ZTDZ.markers.yaml, hash: 'sha256:744bf05a9e8eaed2af663d457037662f0115411db05ac028da5a239b8e1c0bda'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5e0003_SJB_000-240598b
+    span:
+    - body
+    - 0
+    - 645
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:407d95399827aa20bf49e86eb3fb5b83d22b8b49eeb0cf028f186780da3e1b30
